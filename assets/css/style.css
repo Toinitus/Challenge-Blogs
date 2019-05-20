@@ -1,6 +1,14 @@
+ body, html {
+   cursor: url(http://pngimg.com/uploads/cursor/cursor_PNG72.png), auto;
+ }
+
+.divCenter{
+	text-align: center;
+}
+
 .pagination {
   display: inline-block;
- 
+  margin-left: -40px;
 }
 .pagination li  {
   color: black;
@@ -9,16 +17,87 @@
   list-style: none;
   
 }
+.active  {
+	color: #d97a1c
+}
 .pagination  a {
 	text-decoration: none;
 }
 
 header{
-	border-bottom: solid 1px orange;
+	border-bottom: solid 1px #d97a1c;
 	margin-bottom: 10px;
 }
 
 footer{
-	border-top: solid 1px orange;
+	border-top: solid 1px #d97a1c;
 	margin-top: 10px;
+}
+
+.iconSearch {
+	/*cursor: url(http://pngimg.com/uploads/cursor/cursor_PNG72.png), auto;*/
+	cursor: pointer;
+}
+.iconSearch:hover  {
+	color: #d97a1c;
+}
+
+.imgStyle {
+	border-radius: 5%;
+	border: 3px solid #d97a1c;
+}
+.imgCenter, .titleImage{
+	text-align: center;
+	color: #fff;
+}
+.DescriptionImage{
+	padding: 5%;
+}
+
+
+
+
+
+													/* Menu - Search Bar */
+span {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#inputSearch {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: opacity .25s, transform .25s;
+  border-radius: 6%;
+}
+
+#inputSearch.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.navRight{
+	float: right; 
+	margin-right: 10px;
+}
+
+
+												/* TROLL - Mouse Effect */
+
+
+.ball {
+  pointer-events: none;
+  position: absolute; 
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; 
+  background: gray;
+  animation: implode 1s ease-in-out;
+  animation-fill-mode: both;
+  opacity: .5;
+}
+
+@keyframes implode {
+  100% {transform: scale(0)}
 }

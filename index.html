@@ -5,62 +5,104 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/burger.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+	<div id="wrap"></div>
 	<header>
-		<div>
-			<a href="connexion.html">Connexion</a>
-			<a href="inscription.html">Inscription</a>
-			<form action="" id="searchthis" method="get">
-			<input id="search" name="q" type="text" placeholder="Rechercher"/>
-			<button><i class="fas fa-search"></i></button>
-		</div>
-		<h1>Me fail English? That's unpossible</h1>
+		<nav role="navigation">
+			<br>
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="menu">
+				  	<a href="connexion.html">Connexion</a> 
+				  	<br/>
+					<a href="inscription.html">Inscription</a>
+				</ul>
+			</div>
+			<div class="navRight">
+				<form action="#" id="searchthis" method="get">
+					<span class="span">
+						<input type="text" id="inputSearch">
+					</span>
+					<span class="spanIconSearch">
+						<i class="iconSearch fas fa-search" id="buttonSearch"></i>
+					</span>
+				</form>
+			</div>
+		</nav>
+		<br>
+		<h1 class="titleImage">Me fail English? <br>
+		That's unpossible</h1>
 	</header>
 	<section>
+		<br>
 		<article>
-			<img src="https://picsum.photos/350/300?random=1">
-			<h2>I'm kidding</h2>
-			<p>Hi. I'm Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" I like my beer cold, my TV loud and my homosexuals flaming. I don't like being outdoors, Smithers. For one thing, there's too many fat children.</p>	
+			<div class="imgCenter">
+				<img class="imgStyle" src="https://picsum.photos/350/300?random=1">
+			</div>
+			<div class="DescriptionImage">
+				<h2 class="titleImage">I'm kidding</h2>
+				<p>Hi. I'm Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" I like my beer cold, my TV loud and my homosexuals flaming. I don't like being outdoors, Smithers. For one thing, there's too many fat children.</p>	
+			</div>
 		</article>
 		<article>
-			<img src="https://picsum.photos/350/300?random=2">
-			<h2>I work</h2>
-			<p>Fire can be our friend; whether it's toasting marshmallows or raining down on Charlie. I'm going to the back seat of my car, with the woman I love, and I won't be back for ten minutes! What's the point of going out? We're just going to wind up back here anyway.</p>
-				
+			<div class="imgCenter">
+				<img class="imgStyle" src="https://picsum.photos/350/300?random=2">
+			</div>			
+			<div class="DescriptionImage">
+				<h2 class="titleImage">I work</h2>
+				<p>Fire can be our friend; whether it's toasting marshmallows or raining down on Charlie. I'm going to the back seat of my car, with the woman I love, and I won't be back for ten minutes! What's the point of going out? We're just going to wind up back here anyway.</p>
+			</div>
 		</article>
 		<article>
-			<img src="https://picsum.photos/350/300?random=3">
-			<h2>Now which way to the welfare office?</h2>
-			<p>Uh, no, they're saying "Boo-urns, Boo-urns." What's the point of going out? We're just going to wind up back here anyway. I've done everything the Bible says — even the stuff that contradicts the other stuff!
-			</p>
-		</article>
+			<div class="imgCenter">
+				<img class="imgStyle" src="https://picsum.photos/350/300?random=3">
+			</div>
+			<div class="DescriptionImage">
+				<h2 class="titleImage">Now which way to the welfare office?</h2>
+				<p>Uh, no, they're saying "Boo-urns, Boo-urns." What's the point of going out? We're just going to wind up back here anyway. I've done everything the Bible says — even the stuff that contradicts the other stuff!
+				</p>
+			</div>
 		<article>
-			<img src="https://picsum.photos/350/300?random=4">
-			<h2>Save me</h2>
-			<p>You don't win friends with salad. He didn't give you gay, did he? Did he?! I've done everything the Bible says — even the stuff that contradicts the other stuff! That's why I love elementary school, Edna. The children believe anything you tell them.
-			</p>
+			<div class="imgCenter">
+				<img class="imgStyle" src="https://picsum.photos/350/300?random=4">
+			<div>
+			<div class="DescriptionImage">
+				<h2 class="titleImage">Save me</h2>
+				<p>You don't win friends with salad. He didn't give you gay, did he? Did he?! I've done everything the Bible says — even the stuff that 		contradicts the other stuff! That's why I love elementary school, Edna. The children believe anything you tell them.
+				</p>
+			</div>
 		</article>
 	</section>
-	<div>
+	<div class="divCenter">
 		<a href="dernierArticle.html">Le dernier article</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="tousArticle.html">Tous les articles</a>
 	</div>	
 	<footer>
-		<div>
-			 <ul class="pagination">
-  				<li><a href="index.html">1</a></li>
-  				<li><a href="page2.html">2</a></li>
-  				<li><a href="page3.html">3</a></li>
-  				<li><a href="">4</a></li>
-  				<li><a href="">5</a></li>
-			</ul> 
+		<div class="divCenter">
+			<ul class="pagination">
+				<li><a href="index.html" class="active">1</a></li>
+				<li><a href="page2.html">2</a></li>
+				<li><a href="page3.html">3</a></li>
+				<li><a href="">4</a></li>
+				<li><a href="">5</a></li>
+				<li><a href="page2.html">></a></li>
+			</ul>
 		</div>
-		<div>
+		<br>
+		<div class="divCenter">
 			<h3>Coordonnées</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2754.341616971944!2d2.603181315948668!3d46.34276397912114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDIwJzM0LjAiTiAywrAzNicxOS4zIkU!5e0!3m2!1sfr!2sfr!4v1558378874287!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			<p> 30 rue Gandalf Le Blanc <br> Pariset 03177 <br> 06 87 89 63 25 </p>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
