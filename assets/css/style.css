@@ -5,10 +5,10 @@
 .divCenter{
 	text-align: center;
 }
-.divCenter2{
+
+.lienBasBody{
 	display: flex;
 	justify-content: space-around;
-
 }
 
 .pagination {
@@ -32,6 +32,16 @@
 header{
 	border-bottom: solid 1px #d97a1c;
 	margin-bottom: 10px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2%;
+
+}
+
+section{
+	padding-top: 5%;
 }
 
 footer{
@@ -85,6 +95,17 @@ span {
 .navRight{
 	float: right; 
 	margin-right: 10px;
+	align-self: flex-end;
+
+	/*margin-top: -25px;*/
+}
+form span input{
+	height: 20px;
+	border: 2.5px solid #d97a1c;
+	background: none;
+	caret-color: #fff;
+	color: #fff;
+
 }
 
 
@@ -165,3 +186,4 @@ form div{
 iframe{
 	width: 100%;
 }
+

@@ -5,8 +5,6 @@ document.getElementById('buttonSearch').onclick = function() {
 }
 
 
-
-
 			/* TROLL - Mouse Effect */
 
 $(document).ready(function(){
