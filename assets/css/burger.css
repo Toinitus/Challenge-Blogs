@@ -17,10 +17,14 @@ a
   transition: color 0.3s ease;
 }
 
+
 a:hover
 {
   color: #d97a1c;
 }
+#menu a:hover{
+  color: #fff;
+} 
 
 #menuToggle
 {
@@ -118,14 +122,16 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
+  height: 500px;
   
-  background: #ededed;
+  background: #d97a1c;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
+  opacity: 0.80;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
@@ -146,4 +152,11 @@ a:hover
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+#menu a{
+  font-weight: bold;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  color: #000;
 }

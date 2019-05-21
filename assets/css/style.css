@@ -5,6 +5,11 @@
 .divCenter{
 	text-align: center;
 }
+.divCenter2{
+	display: flex;
+	justify-content: space-around;
+
+}
 
 .pagination {
   display: inline-block;
@@ -100,4 +105,63 @@ span {
 
 @keyframes implode {
   100% {transform: scale(0)}
+}
+
+/* CODE CSS CONNEXION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.connexion i{
+	padding-left: 1.5%;
+	position: absolute;
+	margin-top: 1.5%;
+}
+
+.connexion button{
+	border-radius: 4%;
+	margin-bottom:10%;
+	width: 80%;
+	height: 30px;
+}
+
+.connexion input{
+	width: 80%;
+	height: 30px;
+	border-radius: 4%;
+}
+
+.connexion div{
+	margin-bottom: 3%;
+	width: 100%;
+	position: relative;
+}
+.connexion{
+	text-align: center;
+}
+
+/* CODE CSS INSCRIPTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+form{
+	text-align: center;
+}
+
+form input{
+	width: 80%;
+	height: 30px;
+	border-radius: 4%;
+}
+
+form button{
+	border-radius: 4%;
+	margin-bottom:10%;
+	width: 80%;
+	height: 30px;
+}
+
+form div{
+	margin-bottom: 3%;
+	width: 100%;
+	position: relative;
+}
+
+iframe{
+	width: 100%;
 }
