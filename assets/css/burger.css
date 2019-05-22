@@ -12,7 +12,7 @@ body
 a
 {
   text-decoration: none;
-  color: #8c8585;
+  color: #d97a1c;
   
   transition: color 0.3s ease;
 }
@@ -20,7 +20,7 @@ a
 
 a:hover
 {
-  color: #d97a1c;
+  color: #fff;
 }
 #menu a:hover{
   color: #fff;
@@ -132,7 +132,7 @@ a:hover
   background: #d97a1c;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  opacity: 0.80;
+  opacity: 0.90;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
@@ -159,5 +159,6 @@ a:hover
   font-weight: bold;
   font-size: 1.8em;
   line-height: 1.3em;
-  color: #000;
+  color: #fff;
+  float: right;
 }
