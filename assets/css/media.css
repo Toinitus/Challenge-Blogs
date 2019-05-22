@@ -1,7 +1,7 @@
 @media (min-width: 768px){
 	#menu{
 		z-index: -1;
-		height: 160%;
+		height: 415%;
 		margin: -100px 0 0 -100px;
 	}
 
@@ -63,5 +63,11 @@
   line-height: 1.3em;
   color: #000;
   float: right;
+	}
+	.connexion i{
+	padding-left: 1.5%;
+	position: absolute;
+	margin-top: 10px;
 }
+
 }

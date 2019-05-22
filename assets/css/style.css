@@ -98,8 +98,8 @@ span {
 .navRight{
 	float: right; 
 	margin-right: 10px;
-	align-self: flex-end;
-	margin-top: -10px;
+	/*align-self: flex-end;*/
+	margin-top: -30px;
 }
 form span input{
 	height: 20px;
@@ -141,7 +141,7 @@ form span input{
 .connexion i{
 	padding-left: 1.5%;
 	position: absolute;
-	margin-top: 1.5%;
+	margin-top: 10px;
 }
 
 .connexion button{
@@ -219,3 +219,20 @@ iframe{
 }
 
 
+.grosTitre{
+	text-align: center;
+}
+
+.resizeTitre{
+	width: 300px;
+	padding-left: 40px;
+}
+
+.navigation{
+	display: grid;
+	grid-template-columns: 2fr;
+}
+
+.inputSearch{
+	width: auto;
+}
