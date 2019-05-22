@@ -141,27 +141,32 @@ form span input{
 	margin-bottom:10%;
 	width: 80%;
 	height: 30px;
+	
 }
 
 .connexion input{
 	width: 80%;
 	height: 30px;
 	border-radius: 4%;
+	
 }
 
 .connexion div{
 	margin-bottom: 3%;
 	width: 100%;
 	position: relative;
+
 }
 .connexion{
 	text-align: center;
+	margin-top: 8%;
 }
 
 /* CODE CSS INSCRIPTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 form{
 	text-align: center;
+	margin-top: 8%;
 }
 
 form input{
