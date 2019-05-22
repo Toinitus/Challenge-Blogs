@@ -5,3 +5,5 @@ Le site seras statique et faire attention a certain critéres : maquette, interf
 
 ![maquette recto](/assets/img/recto.jpg)
 ![maquette verso](/assets/img/verso.jpg)
+![maquette connexion](/assets/img/connexion.jpg)
+![maquette inscription](/assets/img/inscription.jpg)

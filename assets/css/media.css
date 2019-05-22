@@ -1,7 +1,4 @@
 @media (min-width: 768px){
-
-	/* BURGER CSS !!!!!!!!!!!!!!!!!!!!!!! */
-
 	#menu{
 		z-index: -1;
 		height: 160%;
@@ -33,7 +30,7 @@
 	  top: -50%;
 	  bottom: -50%;
 	  width: 1.25em;
-	  transform: translateX(-1395%) rotate(35deg);
+	  transform: translateX(-3295%) rotate(35deg);
 	}
 
 	button:hover {
@@ -42,7 +39,7 @@
 
 	button:hover::after {
 	  transition: transform 0.45s ease-in-out;
-	  transform: translateX(930%) rotate(35deg);
+	  transform: translateX(1830%) rotate(35deg);
 	}
 
 	form input{
