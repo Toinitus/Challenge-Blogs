@@ -6,8 +6,8 @@ document.getElementById('buttonSearch').onclick = function() {
 
 
 			/* TROLL - Mouse Effect */
-
-$(document).ready(function(){
+if (window.matchMedia("(min-width: 768px)").matches) {
+  $(document).ready(function(){
   
   var mousePos = {};
 
@@ -44,3 +44,8 @@ $(document).ready(function(){
     }
   }, 300);
 });
+}else{
+
+}
+
+

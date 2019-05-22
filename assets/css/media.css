@@ -1,5 +1,28 @@
 @media (min-width: 768px){
-	body #menuToggle{
-		display: none;
+
+	/* BURGER CSS !!!!!!!!!!!!!!!!!!!!!!! */
+
+	#menu{
+		height: 170%;
+		margin: -100px 0 0 -100px;
 	}
+
+	article{
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

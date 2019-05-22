@@ -2,6 +2,7 @@
    cursor: url(http://pngimg.com/uploads/cursor/cursor_PNG72.png), auto;
  }
 
+
 .divCenter{
 	text-align: center;
 }
@@ -37,6 +38,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2%;
+	align-items: center;
 
 }
 
@@ -96,8 +98,7 @@ span {
 	float: right; 
 	margin-right: 10px;
 	align-self: flex-end;
-
-	/*margin-top: -25px;*/
+	margin-top: -10px;
 }
 form span input{
 	height: 20px;
@@ -111,6 +112,12 @@ form span input{
 
 												/* TROLL - Mouse Effect */
 
+#wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: initial;
+}
 
 .ball {
   pointer-events: none;
@@ -128,7 +135,7 @@ form span input{
   100% {transform: scale(0)}
 }
 
-/* CODE CSS CONNEXION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ /*CODE CSS CONNEXION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .connexion i{
 	padding-left: 1.5%;
@@ -141,21 +148,18 @@ form span input{
 	margin-bottom:10%;
 	width: 80%;
 	height: 30px;
-	
-}
+}	
 
 .connexion input{
 	width: 80%;
 	height: 30px;
-	border-radius: 4%;
-	
+	border-radius: 4%;	
 }
 
 .connexion div{
 	margin-bottom: 3%;
 	width: 100%;
 	position: relative;
-
 }
 .connexion{
 	text-align: center;
